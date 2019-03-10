@@ -65,9 +65,17 @@
                                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Points" translatesAutoresizingMaskIntoConstraints="NO" id="aNU-RX-vWo">
+                                                            <rect key="frame" x="338" y="26.5" width="3" height="13"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="13" id="H3J-iG-PIb"/>
+                                                                <constraint firstAttribute="width" constant="3" id="n1U-FN-vBB"/>
+                                                            </constraints>
+                                                        </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.14127084612846375" green="0.13732209801673889" blue="0.13309979438781738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="aNU-RX-vWo" secondAttribute="trailing" constant="2" id="1Wj-lJ-b65"/>
                                                         <constraint firstItem="hHF-TW-Y3K" firstAttribute="top" secondItem="yfB-Iy-ZfS" secondAttribute="bottom" id="1oe-GY-ViH"/>
                                                         <constraint firstItem="yfB-Iy-ZfS" firstAttribute="top" secondItem="mpO-xu-JvO" secondAttribute="top" constant="8" id="2jS-oy-7J8"/>
                                                         <constraint firstAttribute="bottom" secondItem="U7j-BU-Hdh" secondAttribute="bottom" constant="8" id="4f5-6h-pTW"/>
@@ -75,6 +83,7 @@
                                                         <constraint firstItem="U7j-BU-Hdh" firstAttribute="top" secondItem="hHF-TW-Y3K" secondAttribute="bottom" id="TIb-cL-a0B"/>
                                                         <constraint firstItem="bCi-eS-heN" firstAttribute="leading" secondItem="yfB-Iy-ZfS" secondAttribute="trailing" constant="8" id="VcL-pm-I9V"/>
                                                         <constraint firstItem="hHF-TW-Y3K" firstAttribute="bottom" secondItem="bCi-eS-heN" secondAttribute="bottom" id="W3U-ku-q4N"/>
+                                                        <constraint firstItem="aNU-RX-vWo" firstAttribute="centerY" secondItem="mpO-xu-JvO" secondAttribute="centerY" id="WpP-09-mdl"/>
                                                         <constraint firstItem="bCi-eS-heN" firstAttribute="top" secondItem="mpO-xu-JvO" secondAttribute="top" constant="11" id="Y1t-ma-cH7"/>
                                                         <constraint firstItem="yfB-Iy-ZfS" firstAttribute="leading" secondItem="mpO-xu-JvO" secondAttribute="leading" constant="8" id="YL8-iI-An5"/>
                                                         <constraint firstItem="U7j-BU-Hdh" firstAttribute="leading" secondItem="mpO-xu-JvO" secondAttribute="leading" constant="8" id="gYA-DE-6wg"/>
@@ -123,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7G1-lt-ydE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="913" y="-742"/>
+            <point key="canvasLocation" x="912.79999999999995" y="-742.5787106446777"/>
         </scene>
         <!--Frofile-->
         <scene sceneID="MO5-Dw-ys3">
@@ -676,6 +685,7 @@
     </scenes>
     <resources>
         <image name="EVA" width="1056" height="1056"/>
+        <image name="Points" width="48" height="176"/>
         <image name="education" width="23" height="19"/>
         <image name="email" width="128" height="128"/>
         <image name="messengers" width="439" height="155"/>
