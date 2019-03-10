@@ -11,6 +11,22 @@
 		2B2724D92231D40100E4FEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2724D72231D40100E4FEC2 /* Main.storyboard */; };
 		2B2724DB2231D40200E4FEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2724DA2231D40200E4FEC2 /* Assets.xcassets */; };
 		2B2724DE2231D40200E4FEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2724DC2231D40200E4FEC2 /* LaunchScreen.storyboard */; };
+		2B2724E62233A8C600E4FEC2 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724E52233A8C600E4FEC2 /* ProfileVC.swift */; };
+		2B2724E82233B19800E4FEC2 /* EducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724E72233B19800E4FEC2 /* EducationVC.swift */; };
+		2B2724EA2233B4D000E4FEC2 /* EducationTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724E92233B4D000E4FEC2 /* EducationTVCell.swift */; };
+		2B2724EF223435CF00E4FEC2 /* SkillsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724EE223435CF00E4FEC2 /* SkillsVC.swift */; };
+		2B2724F1223436CB00E4FEC2 /* SkillsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724F0223436CB00E4FEC2 /* SkillsTVCell.swift */; };
+		2B2724F32234414400E4FEC2 /* WorksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724F22234414400E4FEC2 /* WorksVC.swift */; };
+		2B2724F52234418100E4FEC2 /* WorksTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724F42234418100E4FEC2 /* WorksTVCell.swift */; };
+		2B2724F7223448EA00E4FEC2 /* PortfolioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724F6223448EA00E4FEC2 /* PortfolioVC.swift */; };
+		2B2724F92234498100E4FEC2 /* PortfolioCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724F82234498100E4FEC2 /* PortfolioCVCell.swift */; };
+		2B2724FB223461F800E4FEC2 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B2724FA223461F800E4FEC2 /* items.json */; };
+		2B2724FD2234630A00E4FEC2 /* InfoPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724FC2234630A00E4FEC2 /* InfoPerson.swift */; };
+		2B2725002234644900E4FEC2 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2724FF2234644900E4FEC2 /* Education.swift */; };
+		2B272502223478DF00E4FEC2 /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B272501223478DF00E4FEC2 /* Skills.swift */; };
+		2B272504223480B800E4FEC2 /* Works.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B272503223480B800E4FEC2 /* Works.swift */; };
+		2B272506223490FC00E4FEC2 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B272505223490FC00E4FEC2 /* Portfolio.swift */; };
+		2B2725AB2234FD6200E4FEC2 /* DetailPortfolioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2725AA2234FD6200E4FEC2 /* DetailPortfolioVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +36,22 @@
 		2B2724DA2231D40200E4FEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B2724DD2231D40200E4FEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B2724DF2231D40200E4FEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2724E52233A8C600E4FEC2 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		2B2724E72233B19800E4FEC2 /* EducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationVC.swift; sourceTree = "<group>"; };
+		2B2724E92233B4D000E4FEC2 /* EducationTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTVCell.swift; sourceTree = "<group>"; };
+		2B2724EE223435CF00E4FEC2 /* SkillsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsVC.swift; sourceTree = "<group>"; };
+		2B2724F0223436CB00E4FEC2 /* SkillsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsTVCell.swift; sourceTree = "<group>"; };
+		2B2724F22234414400E4FEC2 /* WorksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksVC.swift; sourceTree = "<group>"; };
+		2B2724F42234418100E4FEC2 /* WorksTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksTVCell.swift; sourceTree = "<group>"; };
+		2B2724F6223448EA00E4FEC2 /* PortfolioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioVC.swift; sourceTree = "<group>"; };
+		2B2724F82234498100E4FEC2 /* PortfolioCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCVCell.swift; sourceTree = "<group>"; };
+		2B2724FA223461F800E4FEC2 /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		2B2724FC2234630A00E4FEC2 /* InfoPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPerson.swift; sourceTree = "<group>"; };
+		2B2724FF2234644900E4FEC2 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		2B272501223478DF00E4FEC2 /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
+		2B272503223480B800E4FEC2 /* Works.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Works.swift; sourceTree = "<group>"; };
+		2B272505223490FC00E4FEC2 /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		2B2725AA2234FD6200E4FEC2 /* DetailPortfolioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPortfolioVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +84,61 @@
 		2B2724D22231D40100E4FEC2 /* HW_3.2_EreskinVA_UITabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				2B2724FE2234641800E4FEC2 /* Model */,
+				2B2724EC22342FBA00E4FEC2 /* View */,
+				2B2724EB22342FAE00E4FEC2 /* Controller */,
+				2B2724ED22342FC900E4FEC2 /* Supporting Files */,
+				2B2724DF2231D40200E4FEC2 /* Info.plist */,
+				2B2724FA223461F800E4FEC2 /* items.json */,
+			);
+			path = HW_3.2_EreskinVA_UITabBarController;
+			sourceTree = "<group>";
+		};
+		2B2724EB22342FAE00E4FEC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B2724E52233A8C600E4FEC2 /* ProfileVC.swift */,
+				2B2724E72233B19800E4FEC2 /* EducationVC.swift */,
+				2B2724EE223435CF00E4FEC2 /* SkillsVC.swift */,
+				2B2724F22234414400E4FEC2 /* WorksVC.swift */,
+				2B2724F6223448EA00E4FEC2 /* PortfolioVC.swift */,
+				2B2725AA2234FD6200E4FEC2 /* DetailPortfolioVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B2724EC22342FBA00E4FEC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B2724E92233B4D000E4FEC2 /* EducationTVCell.swift */,
+				2B2724F0223436CB00E4FEC2 /* SkillsTVCell.swift */,
+				2B2724F42234418100E4FEC2 /* WorksTVCell.swift */,
+				2B2724F82234498100E4FEC2 /* PortfolioCVCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B2724ED22342FC900E4FEC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				2B2724D32231D40100E4FEC2 /* AppDelegate.swift */,
 				2B2724D72231D40100E4FEC2 /* Main.storyboard */,
 				2B2724DA2231D40200E4FEC2 /* Assets.xcassets */,
 				2B2724DC2231D40200E4FEC2 /* LaunchScreen.storyboard */,
-				2B2724DF2231D40200E4FEC2 /* Info.plist */,
 			);
-			path = HW_3.2_EreskinVA_UITabBarController;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B2724FE2234641800E4FEC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B2724FC2234630A00E4FEC2 /* InfoPerson.swift */,
+				2B2724FF2234644900E4FEC2 /* Education.swift */,
+				2B272501223478DF00E4FEC2 /* Skills.swift */,
+				2B272503223480B800E4FEC2 /* Works.swift */,
+				2B272505223490FC00E4FEC2 /* Portfolio.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2724FB223461F800E4FEC2 /* items.json in Resources */,
 				2B2724DE2231D40200E4FEC2 /* LaunchScreen.storyboard in Resources */,
 				2B2724DB2231D40200E4FEC2 /* Assets.xcassets in Resources */,
 				2B2724D92231D40100E4FEC2 /* Main.storyboard in Resources */,
@@ -132,7 +213,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2724F32234414400E4FEC2 /* WorksVC.swift in Sources */,
+				2B2724F7223448EA00E4FEC2 /* PortfolioVC.swift in Sources */,
+				2B2725002234644900E4FEC2 /* Education.swift in Sources */,
+				2B2724E82233B19800E4FEC2 /* EducationVC.swift in Sources */,
 				2B2724D42231D40100E4FEC2 /* AppDelegate.swift in Sources */,
+				2B2724EA2233B4D000E4FEC2 /* EducationTVCell.swift in Sources */,
+				2B2724F92234498100E4FEC2 /* PortfolioCVCell.swift in Sources */,
+				2B2724F52234418100E4FEC2 /* WorksTVCell.swift in Sources */,
+				2B2724F1223436CB00E4FEC2 /* SkillsTVCell.swift in Sources */,
+				2B272506223490FC00E4FEC2 /* Portfolio.swift in Sources */,
+				2B2724EF223435CF00E4FEC2 /* SkillsVC.swift in Sources */,
+				2B272502223478DF00E4FEC2 /* Skills.swift in Sources */,
+				2B2725AB2234FD6200E4FEC2 /* DetailPortfolioVC.swift in Sources */,
+				2B2724E62233A8C600E4FEC2 /* ProfileVC.swift in Sources */,
+				2B272504223480B800E4FEC2 /* Works.swift in Sources */,
+				2B2724FD2234630A00E4FEC2 /* InfoPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
