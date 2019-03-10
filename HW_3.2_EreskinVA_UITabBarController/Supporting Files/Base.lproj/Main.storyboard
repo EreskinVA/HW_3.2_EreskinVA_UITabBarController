@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--d sjdnjksh jkdsh jkdsh jksdh jkdsh ds sdds ds  ds dsdsdsdsds-->
+        <!--EducationVC-->
         <scene sceneID="fRL-j7-m4G">
             <objects>
                 <viewController id="6vh-Ig-fhd" customClass="EducationVC" customModule="HW_3_2_EreskinVA_UITabBarController" customModuleProvider="target" sceneMemberID="viewController">
@@ -116,7 +116,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Q1H-eY-A1b"/>
                     </view>
-                    <navigationItem key="navigationItem" title="d sjdnjksh jkdsh jkdsh jksdh jkdsh ds sdds ds  ds dsdsdsdsds" id="Gn6-rZ-a2p"/>
+                    <navigationItem key="navigationItem" id="Gn6-rZ-a2p"/>
                     <connections>
                         <outlet property="tableView" destination="h1X-6W-IUW" id="nfg-h0-GVn"/>
                     </connections>
