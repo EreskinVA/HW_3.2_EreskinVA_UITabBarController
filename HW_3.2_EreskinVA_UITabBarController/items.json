@@ -150,32 +150,32 @@
         },
         {
             "id": "3",
-            "name": "App-\"TaskSolutionCommivoyagera\"",
+            "name": "ProjectApp-\"TaskSolutionCommivoyagera\"",
             "imageId": "p8"
         },
         {
             "id": "4",
-            "name": "App-\"NFPCalculate\"",
+            "name": "ProjectApp-\"NFPCalculate\"",
             "imageId": "p5"
         },
         {
             "id": "5",
-            "name": "App-\"ListMovie\"",
+            "name": "ProjectApp-\"ListMovie\"",
             "imageId": "p2"
         },
         {
             "id": "6",
-            "name": "App-\"TaskTracker\"",
+            "name": "ProjectApp-\"TaskTracker\"",
             "imageId": "p3"
         },
         {
             "id": "7",
-            "name": "App-\"CurrenciesList\"",
+            "name": "ProjectApp-\"CurrenciesList\"",
             "imageId": "p4"
         },
         {
             "id": "8",
-            "name": "App-\"WeekDayFinder\"",
+            "name": "ProjectApp-\"WeekDayFinder\"",
             "imageId": "p7"
         }
     ]
